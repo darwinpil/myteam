@@ -44,11 +44,12 @@ ul, #myUL {
 </head>
 <body>
 
-  <h2><center><u>11-July-2022</u></center></h2>
-  <p id="date"></p>
-<script>
-document.getElementById("date").innerHTML = Date();
-</script>
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("date").innerHTML = d + "/" + m + "/" + y;
+  <h2><center><u><p id="date"></p></u></center></h2>
 <br>
 <br>
 
