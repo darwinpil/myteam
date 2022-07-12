@@ -44,14 +44,14 @@ ul, #myUL {
 </head>
 <body>
 
-n =  new Date();
-y = n.getFullYear();
-m = n.getMonth() + 1;
-d = n.getDate();
-  <script>
-document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
-  </script>
-  <h2><center><u><p id="date"></p></u></center></h2>
+<div id="current_date"></p>
+<script>
+date = new Date();
+year = date.getFullYear();
+month = date.getMonth() + 1;
+day = date.getDate();
+document.getElementById("current_date").innerHTML = month + "/" + day + "/" + year;
+</script>
 <br>
 <br>
 
